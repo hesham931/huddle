@@ -15,8 +15,7 @@ a:active{
 }
 body{
     background-color: rgb(247, 229, 229);
-    margin:0px;
-    overflow-x: hidden
+    margin:0px
 }
 .header{
     width:100%;
