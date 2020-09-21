@@ -15,13 +15,13 @@ a:active{
 }
 body{
     background-color: rgb(247, 229, 229);
-    margin:0px
+    margin:0px;
 }
 .header{
-    width:100%;
+    /*width:100%;
     margin:0px;
     position:fixed !important;
-    bottom:525px;
+    bottom:525px;*/
     display: flex;
     flex-wrap: nowrap;
     align-content: center;
@@ -31,12 +31,12 @@ body{
     animation-iteration-count: infinite;
     padding:10px
 }
-@media screen and (min-width:1366px){
+/*@media screen and (min-width:1366px){
     .header{
         position:fixed !important;
         bottom:542px;
     }
-}
+}*/
 @keyframes header{
     from{background-color:rgb(245, 169, 169)}
     to{background-color: white}
@@ -65,7 +65,7 @@ body{
 @media screen and (max-width:915px){
     .H_left{
         left:300px;
-    }
+  }
 }
 .H_left a{
     border:solid rgb(243, 144, 161);
@@ -267,11 +267,12 @@ input[type = 'submit']{
     text-align: center;
     background-color:  rgb(26, 26, 116);
     color:white;
-    padding:50px
+    padding:50px;
 }
 .authrized a{
     text-decoration: none;
-    color:rgb(54, 54, 236)
+    color:rgb(54, 54, 236);
+    
 }
 @media screen and (max-width:1350px){
     *{
