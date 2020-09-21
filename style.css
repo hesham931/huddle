@@ -271,6 +271,16 @@ input[type = 'submit']{
     border-radius:5px;
     margin-left:50px
 }
+.authrized{
+    text-align: center;
+    background-color:  rgb(26, 26, 116);
+    color:white;
+    padding:50px
+}
+.authrized a{
+    text-decoration: none;
+    color:rgb(54, 54, 236)
+}
 @media screen and (max-width:1350px){
     *{
         font-size:20px;
