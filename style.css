@@ -200,14 +200,7 @@ img[alt = "orange_1"]{
 }
 .text{
     justify-content: center;
-    margin-top:-400px;
-    animation: text 5s ease 0s 3 normal forwards;
-}
-@keyframes text{
-    0%{position:relative;left:300px}
-    50%{position:relative;left:0px}
-    75%{position:relative;right:300px}
-    100%{position:relative;right:0px}
+    margin-top:-400px
 }
 .text > div {
     margin:100px
