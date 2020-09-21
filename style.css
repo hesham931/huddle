@@ -557,5 +557,11 @@ input[type = 'submit']{
         overflow: auto;
     }
 }
-1355
-1366
+@media screen and (min-width:951px) and (max-width:1019px){
+    .grow_togther > img {
+        height:600px
+    }
+.text_image{
+        bottom:900px
+    }
+}
